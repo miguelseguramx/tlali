@@ -14,3 +14,19 @@
   .mySwiper {
     overflow:hidden!important;
   }
+
+.hero-container {
+  position: relative;
+}
+
+/* .hero-container::before {
+  content: "";
+  position: absolute;
+  border: 1px solid red;
+  right: 50%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  background: linear-gradient(94deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5858937324929971) 100%);
+} */

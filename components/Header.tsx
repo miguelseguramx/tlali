@@ -58,7 +58,7 @@ export default function Header({}: Props) {
         id="header-left-decor"
         className="absolute hidden md:block md:-top-32 md:-left-44 h-[378px] w-[396px] bg-pink-circle bg-no-repeat bg-cover"
       ></div>
-      <header className="relative w-full mx-auto mt-5 mb-20 md:w-10/12">
+      <header className="relative w-full mx-auto mt-5 mb-20 md:w-10/12 hero-container">
         <div>
           <div className="max-w-6xl px-4 mx-auto">
             <div className="flex justify-between">
@@ -188,7 +188,7 @@ export default function Header({}: Props) {
           <div className="relative flex-1 mt-24 md:mt-0">
             <img
               src="/images/chichen.png"
-              className="-mt-14 md:w-full md:right-7 md:absolute"
+              className="scale-150 -mt-14 md:w-full md:right-7 md:absolute"
               alt="girl travelling"
             />
             {/* <img

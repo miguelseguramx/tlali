@@ -1,29 +1,6 @@
 import React from "react";
 import Destination from "./destination";
-
-const places = [
-  {
-    id: 1,
-    name: "Luciernagas Magicas",
-    price: "$2000.00",
-    days: "4 Days",
-    image: "/images/luciernagas.webp",
-  },
-  {
-    id: 2,
-    name: "Huatulco",
-    price: "$2000.00",
-    days: "3 Days",
-    image: "/images/huatulco.jpeg",
-  },
-  {
-    id: 3,
-    name: "Mundo Maya",
-    price: "$4000.00",
-    days: "7 Days",
-    image: "/images/maya.jpeg",
-  }
-]
+import { places } from "./data"
 
 export default function Destinations() {
   return (
