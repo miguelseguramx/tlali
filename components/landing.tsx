@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
@@ -56,9 +57,9 @@ export default function Header({}: Props) {
       </Head>
       <div
         id="header-left-decor"
-        className="absolute hidden md:block md:-top-32 md:-left-44 h-[278px] w-[396px] bg-pink-circle bg-no-repeat bg-cover"
+        className="absolute hidden md:block md:-top-32 md:-left-44 h-[378px] w-[396px] bg-pink-circle bg-no-repeat bg-cover"
       ></div>
-      <header className="relative w-full mx-auto mt-5 mb-20 md:w-10/12 hero-container">
+      <header className="relative w-full mx-auto mt-5 mb-20 md:w-10/12">
         <div>
           <div className="max-w-6xl px-4 mx-auto">
             <div className="flex justify-between">
@@ -156,8 +157,8 @@ export default function Header({}: Props) {
             </ul>
           </div>
         </div>
-        <div className="absolute -top-[12rem] -right-[16.5rem] -z-10 rotate-10 h-[272px] w-[786px] bg-hero bg-no-repeat bg-cover" />
-        {/* <div className="flex flex-col pb-5 my-20 md:mx-12 md:flex-row">
+        <div className="absolute -top-[12rem] -right-[16.5rem] -z-10 rotate-10 h-[872px] w-[786px] bg-hero bg-no-repeat bg-cover" />
+        <div className="flex flex-col pb-5 my-20 md:mx-12 md:flex-row">
           <div className="flex-1 mx-8 md:mt-10">
             <p className="font-bold uppercase text-[#05668d]">
               Las mejores experiencias en mexico
@@ -181,19 +182,22 @@ export default function Header({}: Props) {
             <p className="mt-0 text-xl font-poppins">
               Encuentra las mejores experiencias
             </p>
-            <button className="mt-8 inline-block bg-[#02c39a] hover:bg-[#28bc9c] font-poppins px-7 py-2 rounded-lg text-white text-lg">
-              Ver todos los destinos
-            </button>
+            <Link href="/anfitr">
+              <button className="mt-8 inline-block bg-[#02c39a] hover:bg-[#28bc9c] font-poppins px-7 py-2 rounded-lg text-white text-lg">
+                Ver todos los destinos
+              </button>
+            </Link>
+            
           </div>
           <div className="relative flex-1 mt-24 md:mt-0">
             <img
               src="/images/chichen.png"
-              className="scale-150 -mt-14 md:w-full md:right-7 md:absolute"
+              className="-mt-14 md:w-full md:right-7 md:absolute"
               alt="girl travelling"
             />
            
           </div>
-        </div> */}
+        </div>
       </header>
     </>
   );
