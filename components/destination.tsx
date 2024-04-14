@@ -1,4 +1,4 @@
-function Destination(params:type) {
+function Destination(params) {
   return (
     <div className="flex-col pb-6 bg-white shadow-xl overflow-hidden rounded-xl w-[280px] transition transform hover:scale-105 duration-300 cursor-pointer">
       <img
